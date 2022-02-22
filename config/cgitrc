@@ -1,0 +1,6 @@
+##
+##	cgit config
+##
+
+
+scan-path=/var/cgit/repos
