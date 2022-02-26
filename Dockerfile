@@ -8,4 +8,4 @@ ADD config/cgitrc /etc/cgitrc
 
 
 EXPOSE 80
-CMD "/usr/bin/nginx"
+CMD /usr/bin/nginx && /usr/bin/tail -f /dev/null
