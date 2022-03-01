@@ -6,4 +6,4 @@ ADD config/nginx.conf /etc/nginx/nginx.conf
 ADD config/cgitrc /etc/cgitrc
 
 EXPOSE 80
-CMD /usr/bin/nginx && /usr/bin/tail -f /dev/null
+CMD ["/usr/bin/nginx", "-g", "daemon: off;"]
